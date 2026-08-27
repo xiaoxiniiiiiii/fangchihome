@@ -1,0 +1,15 @@
+:root{--ink:#121a2d;--paper:#f1eadf;--clay:#ba493c;--sage:#243a5a;--line:#c9c0b4}
+body{background:var(--paper);color:var(--ink)}
+.site-header{background:var(--ink);color:var(--paper);border-bottom-color:#344561}
+.site-header .wordmark{color:var(--paper)}
+nav button,.cart-button{color:#d8dfeb}.cart-button{border-left-color:#344561}.cart-button b{background:var(--clay);color:var(--paper)}
+.hero{background:var(--sage);color:var(--paper)}.hero .eyebrow{color:#dca59a}.hero-text{color:#dbe1e9}.hero .button-dark{background:var(--clay)}
+.art-card{box-shadow:0 18px 30px #11152255}.art-one{background:#d25a43}.art-two{background:#6e89b6}.hero-art p{color:#dbe1e9}
+.catalog{background:var(--paper)}.intro{color:#687078}.filters .active{background:var(--clay);color:var(--paper)}.product-image{background:#ded6ca}.category-label{color:#7c7168}
+.manifesto{background:#7f302c;color:var(--paper)}.manifesto p:last-child{color:#f0d5c9}
+footer{background:#0d1424}.footer-top .wordmark{color:var(--paper)}.footer-top p{color:#b7c0cf}.footer-col h4{color:#a5b5cf}.company-strip{border-top-color:#344561;color:#a5b0c0}
+.footer-email{display:inline-block;margin-top:28px;color:#f1eadf;font:14px var(--mono);text-decoration:none;border-bottom:1px solid #ba493c;padding-bottom:8px}.footer-email span{color:#d25a43;margin-left:12px}
+.scrim{background:#0d142499}.cart-drawer{background:var(--paper)}
+.checkout-page,.legal-page{background:var(--paper)}.order-summary{background:#dfd6ca}.success{background:#d5a29a}
+.admin-page{background:var(--sage)}.admin-card{background:var(--paper)}
+@media(max-width:800px){.site-header{background:var(--ink)}}
